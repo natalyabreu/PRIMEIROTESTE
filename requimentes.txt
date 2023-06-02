@@ -1,2 +1,3 @@
 wordcloud
 bs4
+pandas
