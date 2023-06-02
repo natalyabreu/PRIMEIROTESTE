@@ -8,4 +8,4 @@ df = pd.read_csv('brasil-win.csv', encoding='ISO-8859-1')
 
 st.dataframe(df)
 
-st.bar_chart(df)
+st.bar_chart(df, x = 'estado' , y = 'habitantes' )
