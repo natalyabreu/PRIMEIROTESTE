@@ -4,6 +4,5 @@ import csv
 st.title('tarefa do josir')
 st.caption('Nataly Abreu')
 
-df = pd.read_csv('acidentes.csv")
-#for linha in arquivo:
-#    st.write(linha)
+df = pd.read_csv("Fruit Prices 2020.csv")
+st.dataframe(df)
